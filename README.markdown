@@ -14,8 +14,4 @@ This diagram illustrates the decision points and information provided at each st
 
 ![Flow Diagram](https://github.com/mohit1106/Prompt-Engineering-Assignment/blob/76b8e571b4211dd8aca495e71bf035912a5fb4ab/flowchart/detailed%20flowchart.svg)
 
-## Assignment Document
-
-The detailed conversational flow is documented in the following PDF:
-
 ---
