@@ -8,18 +8,14 @@ Designing a conversational flow for an AI assistant to guide prospective nursing
 
 ![Flow Diagram](https://github.com/mohit1106/Prompt-Engineering-Assignment/blob/14959ff4945e48e9ec673e73d578bd808b6d36a4/flowchart/normal%20flow.svg)
 
+This diagram illustrates the decision points and information provided at each step of the conversation.
+
+![Flow Diagram](https://github.com/mohit1106/Prompt-Engineering-Assignment/blob/76b8e571b4211dd8aca495e71bf035912a5fb4ab/flowchart/detailed%20flowchart.svg)
+
 ## Assignment Document
 
 The detailed conversational flow is documented in the following PDF:
 
 [Assignment PDF](https://github.com/mohit1106/Prompt-Engineering-Assignment/blob/76b8e571b4211dd8aca495e71bf035912a5fb4ab/Prompt%20Engineering%20Intern%20Assignment.pdf)
-
-## Flow Diagram
-
-A visual representation of the conversational flow is provided below:
-
-![Flow Diagram](https://github.com/mohit1106/Prompt-Engineering-Assignment/blob/76b8e571b4211dd8aca495e71bf035912a5fb4ab/flowchart/detailed%20flowchart.svg)
-
-This diagram illustrates the decision points and information provided at each step of the conversation.
 
 ---
