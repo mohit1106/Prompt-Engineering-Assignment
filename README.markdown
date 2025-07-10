@@ -10,7 +10,7 @@ Designing a conversational flow for an AI assistant to guide prospective nursing
 
 The detailed conversational flow is documented in the following PDF:
 
-[Assignment PDF]([assets/assignment.pdf](https://github.com/mohit1106/Prompt-Engineering-Assignment/blob/628999f3e273160cc2cd9013b37cfad236ef7534/Prompt%20Engineering%20Intern%20Assignment.pdf))
+[Assignment PDF](assets/assignment.pdf)
 
 ## Flow Diagram
 
