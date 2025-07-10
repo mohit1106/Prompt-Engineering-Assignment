@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1720pt" height="135pt" viewBox="0.00 0.00 1720.48 134.57">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 130.57)">
+<title>NursingShortFlow</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-130.57 1716.48,-130.57 1716.48,4 -4,4"/>
+<!-- Start -->
+<g id="node1" class="node">
+<title>Start</title>
+<ellipse fill="none" stroke="black" cx="31.43" cy="-95" rx="31.43" ry="18"/>
+<text text-anchor="middle" x="31.43" y="-90.8" font-family="Arial" font-size="14.00">Start</text>
+</g>
+<!-- Interested -->
+<g id="node2" class="node">
+<title>Interested</title>
+<polygon fill="none" stroke="black" points="183.8,-113 99.86,-95 183.8,-77 267.74,-95 183.8,-113"/>
+<text text-anchor="middle" x="183.8" y="-90.8" font-family="Arial" font-size="14.00">Interested?</text>
+</g>
+<!-- Start&#45;&gt;Interested -->
+<g id="edge1" class="edge">
+<title>Start-&gt;Interested</title>
+<path fill="none" stroke="black" d="M63.22,-95C70.25,-95 78.09,-95 86.29,-95"/>
+<polygon fill="black" stroke="black" points="86.16,-98.5 96.16,-95 86.16,-91.5 86.16,-98.5"/>
+</g>
+<!-- Exit -->
+<g id="node3" class="node">
+<title>Exit</title>
+<ellipse fill="none" stroke="black" cx="708.36" cy="-95" rx="27.13" ry="18"/>
+<text text-anchor="middle" x="708.36" y="-90.8" font-family="Arial" font-size="14.00">Exit</text>
+</g>
+<!-- Interested&#45;&gt;Exit -->
+<g id="edge2" class="edge">
+<title>Interested-&gt;Exit</title>
+<path fill="none" stroke="black" d="M242.12,-101C256.36,-102.25 271.59,-103.37 285.74,-104 453.35,-111.46 495.88,-113.03 663.23,-101 665.58,-100.83 667.99,-100.62 670.42,-100.37"/>
+<polygon fill="black" stroke="black" points="670.72,-103.86 680.24,-99.22 669.9,-96.91 670.72,-103.86"/>
+<text text-anchor="middle" x="490.39" y="-113.97" font-family="Times,serif" font-size="14.00">No</text>
+</g>
+<!-- TookBiology -->
+<g id="node4" class="node">
+<title>TookBiology</title>
+<polygon fill="none" stroke="black" points="393.51,-90 325.51,-72 393.51,-54 461.5,-72 393.51,-90"/>
+<text text-anchor="middle" x="393.51" y="-67.8" font-family="Arial" font-size="14.00">Biology?</text>
+</g>
+<!-- Interested&#45;&gt;TookBiology -->
+<g id="edge3" class="edge">
+<title>Interested-&gt;TookBiology</title>
+<path fill="none" stroke="black" d="M241.01,-88.78C269.43,-85.63 303.94,-81.81 332.83,-78.61"/>
+<polygon fill="black" stroke="black" points="332.96,-82.12 342.51,-77.54 332.19,-75.16 332.96,-82.12"/>
+<text text-anchor="middle" x="296.63" y="-87.7" font-family="Times,serif" font-size="14.00">Yes</text>
+</g>
+<!-- BioMandatory -->
+<g id="node5" class="node">
+<title>BioMandatory</title>
+<polygon fill="none" stroke="black" points="644.23,-90 519.28,-90 519.28,-54 644.23,-54 644.23,-90"/>
+<text text-anchor="middle" x="581.75" y="-67.8" font-family="Arial" font-size="14.00">Biology avashyak</text>
+</g>
+<!-- TookBiology&#45;&gt;BioMandatory -->
+<g id="edge4" class="edge">
+<title>TookBiology-&gt;BioMandatory</title>
+<path fill="none" stroke="black" d="M463.33,-72C477.72,-72 492.94,-72 507.49,-72"/>
+<polygon fill="black" stroke="black" points="507.46,-75.5 517.46,-72 507.46,-68.5 507.46,-75.5"/>
+<text text-anchor="middle" x="490.39" y="-76.2" font-family="Times,serif" font-size="14.00">No</text>
+</g>
+<!-- ProgramDetails -->
+<g id="node6" class="node">
+<title>ProgramDetails</title>
+<polygon fill="none" stroke="black" points="639.93,-36 523.57,-36 523.57,0 639.93,0 639.93,-36"/>
+<text text-anchor="middle" x="581.75" y="-13.8" font-family="Arial" font-size="14.00">Program Details</text>
+</g>
+<!-- TookBiology&#45;&gt;ProgramDetails -->
+<g id="edge5" class="edge">
+<title>TookBiology-&gt;ProgramDetails</title>
+<path fill="none" stroke="black" d="M427.38,-62.47C450.89,-55.65 483.4,-46.23 512.44,-37.81"/>
+<polygon fill="black" stroke="black" points="513.29,-41.21 521.92,-35.06 511.34,-34.48 513.29,-41.21"/>
+<text text-anchor="middle" x="490.39" y="-50.82" font-family="Times,serif" font-size="14.00">Yes</text>
+</g>
+<!-- BioMandatory&#45;&gt;Exit -->
+<g id="edge6" class="edge">
+<title>BioMandatory-&gt;Exit</title>
+<path fill="none" stroke="black" d="M644.69,-83.43C653.47,-85.05 662.27,-86.68 670.37,-88.17"/>
+<polygon fill="black" stroke="black" points="669.71,-91.61 680.18,-89.98 670.98,-84.73 669.71,-91.61"/>
+</g>
+<!-- Fees -->
+<g id="node7" class="node">
+<title>Fees</title>
+<polygon fill="none" stroke="black" points="735.36,-36 681.36,-36 681.36,0 735.36,0 735.36,-36"/>
+<text text-anchor="middle" x="708.36" y="-13.8" font-family="Arial" font-size="14.00">Fees</text>
+</g>
+<!-- ProgramDetails&#45;&gt;Fees -->
+<g id="edge7" class="edge">
+<title>ProgramDetails-&gt;Fees</title>
+<path fill="none" stroke="black" d="M640.31,-18C650.36,-18 660.57,-18 669.89,-18"/>
+<polygon fill="black" stroke="black" points="669.63,-21.5 679.63,-18 669.63,-14.5 669.63,-21.5"/>
+</g>
+<!-- HostelTraining -->
+<g id="node8" class="node">
+<title>HostelTraining</title>
+<polygon fill="none" stroke="black" points="882.65,-36 772.5,-36 772.5,0 882.65,0 882.65,-36"/>
+<text text-anchor="middle" x="827.57" y="-13.8" font-family="Arial" font-size="14.00">Hostel/Training</text>
+</g>
+<!-- Fees&#45;&gt;HostelTraining -->
+<g id="edge8" class="edge">
+<title>Fees-&gt;HostelTraining</title>
+<path fill="none" stroke="black" d="M735.67,-18C743.26,-18 751.9,-18 760.77,-18"/>
+<polygon fill="black" stroke="black" points="760.55,-21.5 770.55,-18 760.55,-14.5 760.55,-21.5"/>
+</g>
+<!-- Location -->
+<g id="node9" class="node">
+<title>Location</title>
+<polygon fill="none" stroke="black" points="988.58,-36 919.65,-36 919.65,0 988.58,0 988.58,-36"/>
+<text text-anchor="middle" x="954.11" y="-13.8" font-family="Arial" font-size="14.00">Location</text>
+</g>
+<!-- HostelTraining&#45;&gt;Location -->
+<g id="edge9" class="edge">
+<title>HostelTraining-&gt;Location</title>
+<path fill="none" stroke="black" d="M882.83,-18C891.3,-18 899.97,-18 908.19,-18"/>
+<polygon fill="black" stroke="black" points="907.95,-21.5 917.95,-18 907.95,-14.5 907.95,-21.5"/>
+</g>
+<!-- Accreditation -->
+<g id="node10" class="node">
+<title>Accreditation</title>
+<polygon fill="none" stroke="black" points="1122.51,-36 1025.58,-36 1025.58,0 1122.51,0 1122.51,-36"/>
+<text text-anchor="middle" x="1074.04" y="-13.8" font-family="Arial" font-size="14.00">Accreditation</text>
+</g>
+<!-- Location&#45;&gt;Accreditation -->
+<g id="edge10" class="edge">
+<title>Location-&gt;Accreditation</title>
+<path fill="none" stroke="black" d="M988.91,-18C996.76,-18 1005.35,-18 1013.95,-18"/>
+<polygon fill="black" stroke="black" points="1013.67,-21.5 1023.67,-18 1013.67,-14.5 1013.67,-21.5"/>
+</g>
+<!-- TrainingSites -->
+<g id="node11" class="node">
+<title>TrainingSites</title>
+<polygon fill="none" stroke="black" points="1261.1,-36 1159.51,-36 1159.51,0 1261.1,0 1261.1,-36"/>
+<text text-anchor="middle" x="1210.3" y="-13.8" font-family="Arial" font-size="14.00">Training Sites</text>
+</g>
+<!-- Accreditation&#45;&gt;TrainingSites -->
+<g id="edge11" class="edge">
+<title>Accreditation-&gt;TrainingSites</title>
+<path fill="none" stroke="black" d="M1122.76,-18C1130.84,-18 1139.33,-18 1147.71,-18"/>
+<polygon fill="black" stroke="black" points="1147.5,-21.5 1157.5,-18 1147.5,-14.5 1147.5,-21.5"/>
+</g>
+<!-- Scholarships -->
+<g id="node12" class="node">
+<title>Scholarships</title>
+<polygon fill="none" stroke="black" points="1394.25,-36 1298.1,-36 1298.1,0 1394.25,0 1394.25,-36"/>
+<text text-anchor="middle" x="1346.18" y="-13.8" font-family="Arial" font-size="14.00">Scholarships</text>
+</g>
+<!-- TrainingSites&#45;&gt;Scholarships -->
+<g id="edge12" class="edge">
+<title>TrainingSites-&gt;Scholarships</title>
+<path fill="none" stroke="black" d="M1261.53,-18C1269.6,-18 1278.02,-18 1286.27,-18"/>
+<polygon fill="black" stroke="black" points="1286.25,-21.5 1296.25,-18 1286.25,-14.5 1286.25,-21.5"/>
+</g>
+<!-- SeatsEligibility -->
+<g id="node13" class="node">
+<title>SeatsEligibility</title>
+<polygon fill="none" stroke="black" points="1554.63,-36 1431.25,-36 1431.25,0 1554.63,0 1554.63,-36"/>
+<text text-anchor="middle" x="1492.94" y="-13.8" font-family="Arial" font-size="14.00">Seats &amp; Eligibility</text>
+</g>
+<!-- Scholarships&#45;&gt;SeatsEligibility -->
+<g id="edge13" class="edge">
+<title>Scholarships-&gt;SeatsEligibility</title>
+<path fill="none" stroke="black" d="M1394.58,-18C1402.57,-18 1411.03,-18 1419.49,-18"/>
+<polygon fill="black" stroke="black" points="1419.46,-21.5 1429.46,-18 1419.46,-14.5 1419.46,-21.5"/>
+</g>
+<!-- EndApply -->
+<g id="node14" class="node">
+<title>EndApply</title>
+<ellipse fill="none" stroke="black" cx="1652.06" cy="-18" rx="60.42" ry="18"/>
+<text text-anchor="middle" x="1652.06" y="-13.8" font-family="Arial" font-size="14.00">End / Apply</text>
+</g>
+<!-- SeatsEligibility&#45;&gt;EndApply -->
+<g id="edge14" class="edge">
+<title>SeatsEligibility-&gt;EndApply</title>
+<path fill="none" stroke="black" d="M1554.69,-18C1562.94,-18 1571.47,-18 1579.88,-18"/>
+<polygon fill="black" stroke="black" points="1579.74,-21.5 1589.74,-18 1579.74,-14.5 1579.74,-21.5"/>
+</g>
+</g>
+</svg>

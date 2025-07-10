@@ -1,0 +1,376 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="520pt" height="2189pt" viewBox="0.00 0.00 519.61 2188.86">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 2184.86)">
+<title>NursingAdmission</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-2184.86 515.61,-2184.86 515.61,4 -4,4"/>
+<!-- Start -->
+<g id="node1" class="node">
+<title>Start</title>
+<ellipse fill="none" stroke="black" cx="127.6" cy="-2162.86" rx="29.28" ry="18"/>
+<text text-anchor="middle" x="127.6" y="-2158.66" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Start</text>
+</g>
+<!-- Interested -->
+<g id="node4" class="node">
+<title>Interested</title>
+<polygon fill="none" stroke="black" points="127.6,-2107.86 0,-2066.26 127.6,-2024.66 255.21,-2066.26 127.6,-2107.86"/>
+<text text-anchor="middle" x="127.6" y="-2070.46" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Interested in</text>
+<text text-anchor="middle" x="127.6" y="-2053.66" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Nursing admission?</text>
+</g>
+<!-- Start&#45;&gt;Interested -->
+<g id="edge1" class="edge">
+<title>Start-&gt;Interested</title>
+<path fill="none" stroke="black" d="M127.6,-2144.51C127.6,-2137.31 127.6,-2128.54 127.6,-2119.52"/>
+<polygon fill="black" stroke="black" points="131.1,-2119.58 127.6,-2109.58 124.1,-2119.58 131.1,-2119.58"/>
+</g>
+<!-- Exit -->
+<g id="node2" class="node">
+<title>Exit</title>
+<ellipse fill="none" stroke="black" cx="230.6" cy="-237.45" rx="82.77" ry="29.42"/>
+<text text-anchor="middle" x="230.6" y="-241.65" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Exit</text>
+<text text-anchor="middle" x="230.6" y="-224.85" font-family="Helvetica,Arial,sans-serif" font-size="14.00">(offer future help)</text>
+</g>
+<!-- EndApply -->
+<g id="node3" class="node">
+<title>EndApply</title>
+<ellipse fill="none" stroke="black" cx="390.6" cy="-29.42" rx="121.01" ry="29.42"/>
+<text text-anchor="middle" x="390.6" y="-33.62" font-family="Helvetica,Arial,sans-serif" font-size="14.00">End</text>
+<text text-anchor="middle" x="390.6" y="-16.82" font-family="Helvetica,Arial,sans-serif" font-size="14.00">(Start Application or Q&amp;A)</text>
+</g>
+<!-- Interested&#45;&gt;Exit -->
+<g id="edge2" class="edge">
+<title>Interested-&gt;Exit</title>
+<path fill="none" stroke="black" d="M120.54,-2026.71C116.25,-2000.01 111.6,-1963.59 111.6,-1931.26 111.6,-1931.26 111.6,-1931.26 111.6,-347.86 111.6,-312.28 140.79,-285.11 170.25,-266.74"/>
+<polygon fill="black" stroke="black" points="171.67,-269.97 178.49,-261.86 168.1,-263.95 171.67,-269.97"/>
+<text text-anchor="middle" x="120.16" y="-1125.66" font-family="Times,serif" font-size="14.00">No</text>
+</g>
+<!-- TookBiology -->
+<g id="node5" class="node">
+<title>TookBiology</title>
+<polygon fill="none" stroke="black" points="233.6,-1971.86 139.43,-1930.26 233.6,-1888.66 327.77,-1930.26 233.6,-1971.86"/>
+<text text-anchor="middle" x="233.6" y="-1934.46" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Took Biology</text>
+<text text-anchor="middle" x="233.6" y="-1917.66" font-family="Helvetica,Arial,sans-serif" font-size="14.00">in 12th?</text>
+</g>
+<!-- Interested&#45;&gt;TookBiology -->
+<g id="edge3" class="edge">
+<title>Interested-&gt;TookBiology</title>
+<path fill="none" stroke="black" d="M153.26,-2032.82C168.14,-2014.02 186.98,-1990.21 202.67,-1970.37"/>
+<polygon fill="black" stroke="black" points="205.24,-1972.77 208.69,-1962.75 199.75,-1968.42 205.24,-1972.77"/>
+<text text-anchor="middle" x="197.84" y="-1994.06" font-family="Times,serif" font-size="14.00">Yes</text>
+</g>
+<!-- BioMandatory -->
+<g id="node6" class="node">
+<title>BioMandatory</title>
+<polygon fill="none" stroke="black" points="310.21,-1776.26 126.99,-1776.26 126.99,-1734.66 310.21,-1734.66 310.21,-1776.26"/>
+<text text-anchor="middle" x="218.6" y="-1759.66" font-family="Helvetica,Arial,sans-serif" font-size="14.00">B.Sc Nursing mein admission</text>
+<text text-anchor="middle" x="218.6" y="-1742.86" font-family="Helvetica,Arial,sans-serif" font-size="14.00">ke liye Biology avashyak hai.</text>
+</g>
+<!-- TookBiology&#45;&gt;BioMandatory -->
+<g id="edge4" class="edge">
+<title>TookBiology-&gt;BioMandatory</title>
+<path fill="none" stroke="black" d="M230.2,-1890.05C227.52,-1859.21 223.84,-1816.79 221.35,-1788.09"/>
+<polygon fill="black" stroke="black" points="224.84,-1787.87 220.49,-1778.21 217.87,-1788.48 224.84,-1787.87"/>
+<text text-anchor="middle" x="236.88" y="-1858.06" font-family="Times,serif" font-size="14.00">No</text>
+</g>
+<!-- ShowProgram -->
+<g id="node7" class="node">
+<title>ShowProgram</title>
+<polygon fill="none" stroke="black" points="442.42,-1835.86 246.79,-1835.86 246.79,-1794.26 442.42,-1794.26 442.42,-1835.86"/>
+<text text-anchor="middle" x="344.6" y="-1819.26" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Describe B.Sc Nursing program</text>
+<text text-anchor="middle" x="344.6" y="-1802.46" font-family="Helvetica,Arial,sans-serif" font-size="14.00">(full-time, 4 years)</text>
+</g>
+<!-- TookBiology&#45;&gt;ShowProgram -->
+<g id="edge5" class="edge">
+<title>TookBiology-&gt;ShowProgram</title>
+<path fill="none" stroke="black" d="M261.61,-1900.7C278.61,-1883.36 300.22,-1861.33 317.12,-1844.09"/>
+<polygon fill="black" stroke="black" points="319.44,-1846.73 323.94,-1837.14 314.44,-1841.83 319.44,-1846.73"/>
+<text text-anchor="middle" x="316.42" y="-1858.06" font-family="Times,serif" font-size="14.00">Yes</text>
+</g>
+<!-- BioMandatory&#45;&gt;Exit -->
+<g id="edge6" class="edge">
+<title>BioMandatory-&gt;Exit</title>
+<path fill="none" stroke="black" d="M206.07,-1734.22C192.75,-1710.75 173.6,-1670.45 173.6,-1632.86 173.6,-1632.86 173.6,-1632.86 173.6,-347.86 173.6,-321.42 186.86,-295.04 200.58,-274.8"/>
+<polygon fill="black" stroke="black" points="203.26,-277.09 206.21,-266.91 197.56,-273.02 203.26,-277.09"/>
+</g>
+<!-- AskFee -->
+<g id="node8" class="node">
+<title>AskFee</title>
+<polygon fill="none" stroke="black" points="425.9,-1716.66 263.31,-1716.66 263.31,-1658.26 425.9,-1658.26 425.9,-1716.66"/>
+<text text-anchor="middle" x="344.6" y="-1700.06" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Ask:</text>
+<text text-anchor="middle" x="344.6" y="-1683.26" font-family="Helvetica,Arial,sans-serif" font-size="14.00">“Would you like to know</text>
+<text text-anchor="middle" x="344.6" y="-1666.46" font-family="Helvetica,Arial,sans-serif" font-size="14.00">fee structure?”</text>
+</g>
+<!-- ShowProgram&#45;&gt;AskFee -->
+<g id="edge7" class="edge">
+<title>ShowProgram-&gt;AskFee</title>
+<path fill="none" stroke="black" d="M344.6,-1793.88C344.6,-1776.25 344.6,-1750.13 344.6,-1728.3"/>
+<polygon fill="black" stroke="black" points="348.1,-1728.53 344.6,-1718.53 341.1,-1728.53 348.1,-1728.53"/>
+</g>
+<!-- ShowFee -->
+<g id="node9" class="node">
+<title>ShowFee</title>
+<polygon fill="none" stroke="black" points="406.96,-1605.46 234.25,-1605.46 234.25,-1547.06 406.96,-1547.06 406.96,-1605.46"/>
+<text text-anchor="middle" x="320.6" y="-1588.86" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Tuition: ₹60k</text>
+<text text-anchor="middle" x="320.6" y="-1572.06" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Bus: ₹10k</text>
+<text text-anchor="middle" x="320.6" y="-1555.26" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Total ₹70k in 3 instalments</text>
+</g>
+<!-- AskFee&#45;&gt;ShowFee -->
+<g id="edge8" class="edge">
+<title>AskFee-&gt;ShowFee</title>
+<path fill="none" stroke="black" d="M338.3,-1657.77C335.54,-1645.23 332.26,-1630.32 329.28,-1616.76"/>
+<polygon fill="black" stroke="black" points="332.76,-1616.26 327.19,-1607.24 325.92,-1617.76 332.76,-1616.26"/>
+<text text-anchor="middle" x="344.93" y="-1627.66" font-family="Times,serif" font-size="14.00">Yes</text>
+</g>
+<!-- AskHostel -->
+<g id="node10" class="node">
+<title>AskHostel</title>
+<polygon fill="none" stroke="black" points="394.68,-1510.06 286.53,-1510.06 286.53,-1451.66 394.68,-1451.66 394.68,-1510.06"/>
+<text text-anchor="middle" x="340.6" y="-1493.46" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Ask:</text>
+<text text-anchor="middle" x="340.6" y="-1476.66" font-family="Helvetica,Arial,sans-serif" font-size="14.00">“Want hostel &amp;</text>
+<text text-anchor="middle" x="340.6" y="-1459.86" font-family="Helvetica,Arial,sans-serif" font-size="14.00">training info?”</text>
+</g>
+<!-- AskFee&#45;&gt;AskHostel -->
+<g id="edge9" class="edge">
+<title>AskFee-&gt;AskHostel</title>
+<path fill="none" stroke="black" d="M378.6,-1658.13C392.93,-1643.98 408.03,-1625.59 415.6,-1605.46 424.74,-1581.17 426.37,-1570.68 415.6,-1547.06 410.67,-1536.24 402.95,-1526.51 394.31,-1518.08"/>
+<polygon fill="black" stroke="black" points="396.69,-1515.51 386.92,-1511.41 392,-1520.71 396.69,-1515.51"/>
+<text text-anchor="middle" x="431.63" y="-1572.06" font-family="Times,serif" font-size="14.00">No</text>
+</g>
+<!-- ShowFee&#45;&gt;AskHostel -->
+<g id="edge10" class="edge">
+<title>ShowFee-&gt;AskHostel</title>
+<path fill="none" stroke="black" d="M326.71,-1546.73C328.4,-1538.84 330.27,-1530.13 332.07,-1521.72"/>
+<polygon fill="black" stroke="black" points="335.47,-1522.53 334.15,-1512.02 328.63,-1521.07 335.47,-1522.53"/>
+</g>
+<!-- AskHostel&#45;&gt;Exit -->
+<g id="edge12" class="edge">
+<title>AskHostel-&gt;Exit</title>
+<path fill="none" stroke="black" d="M286.12,-1455.94C254,-1437.77 219.6,-1409.29 219.6,-1370.66 219.6,-1370.66 219.6,-1370.66 219.6,-347.86 219.6,-324.77 222.06,-299.08 224.65,-278.4"/>
+<polygon fill="black" stroke="black" points="228.09,-279.04 225.93,-268.66 221.15,-278.12 228.09,-279.04"/>
+<text text-anchor="middle" x="228.16" y="-874.66" font-family="Times,serif" font-size="14.00">No</text>
+</g>
+<!-- ShowHostel -->
+<g id="node11" class="node">
+<title>ShowHostel</title>
+<polygon fill="none" stroke="black" points="459.96,-1398.86 247.25,-1398.86 247.25,-1340.46 459.96,-1340.46 459.96,-1398.86"/>
+<text text-anchor="middle" x="353.6" y="-1382.26" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Hostel: 24×7 water &amp; electricity,</text>
+<text text-anchor="middle" x="353.6" y="-1365.46" font-family="Helvetica,Arial,sans-serif" font-size="14.00">CCTV, warden</text>
+<text text-anchor="middle" x="353.6" y="-1348.66" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Training: clinical with real patients</text>
+</g>
+<!-- AskHostel&#45;&gt;ShowHostel -->
+<g id="edge11" class="edge">
+<title>AskHostel-&gt;ShowHostel</title>
+<path fill="none" stroke="black" d="M344.02,-1451.17C345.5,-1438.76 347.25,-1424.02 348.85,-1410.56"/>
+<polygon fill="black" stroke="black" points="352.33,-1411.01 350.03,-1400.66 345.37,-1410.18 352.33,-1411.01"/>
+<text text-anchor="middle" x="358.77" y="-1421.06" font-family="Times,serif" font-size="14.00">Yes</text>
+</g>
+<!-- AskLocation -->
+<g id="node12" class="node">
+<title>AskLocation</title>
+<polygon fill="none" stroke="black" points="405.53,-1303.46 301.67,-1303.46 301.67,-1245.06 405.53,-1245.06 405.53,-1303.46"/>
+<text text-anchor="middle" x="353.6" y="-1286.86" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Ask:</text>
+<text text-anchor="middle" x="353.6" y="-1270.06" font-family="Helvetica,Arial,sans-serif" font-size="14.00">“Want college</text>
+<text text-anchor="middle" x="353.6" y="-1253.26" font-family="Helvetica,Arial,sans-serif" font-size="14.00">location info?”</text>
+</g>
+<!-- ShowHostel&#45;&gt;AskLocation -->
+<g id="edge13" class="edge">
+<title>ShowHostel-&gt;AskLocation</title>
+<path fill="none" stroke="black" d="M353.6,-1340.13C353.6,-1332.33 353.6,-1323.72 353.6,-1315.4"/>
+<polygon fill="black" stroke="black" points="357.1,-1315.45 353.6,-1305.45 350.1,-1315.45 357.1,-1315.45"/>
+</g>
+<!-- ShowLocation -->
+<g id="node13" class="node">
+<title>ShowLocation</title>
+<polygon fill="none" stroke="black" points="413.83,-1192.26 261.37,-1192.26 261.37,-1156.26 413.83,-1156.26 413.83,-1192.26"/>
+<text text-anchor="middle" x="337.6" y="-1170.06" font-family="Helvetica,Arial,sans-serif" font-size="14.00">College located in Delhi</text>
+</g>
+<!-- AskLocation&#45;&gt;ShowLocation -->
+<g id="edge14" class="edge">
+<title>AskLocation-&gt;ShowLocation</title>
+<path fill="none" stroke="black" d="M348.93,-1244.65C346.83,-1231.76 344.35,-1216.58 342.25,-1203.71"/>
+<polygon fill="black" stroke="black" points="345.76,-1203.47 340.69,-1194.17 338.85,-1204.6 345.76,-1203.47"/>
+<text text-anchor="middle" x="356.49" y="-1214.46" font-family="Times,serif" font-size="14.00">Yes</text>
+</g>
+<!-- AskAccred -->
+<g id="node15" class="node">
+<title>AskAccred</title>
+<polygon fill="none" stroke="black" points="488.91,-1008.06 356.3,-1008.06 356.3,-949.66 488.91,-949.66 488.91,-1008.06"/>
+<text text-anchor="middle" x="422.6" y="-991.46" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Ask:</text>
+<text text-anchor="middle" x="422.6" y="-974.66" font-family="Helvetica,Arial,sans-serif" font-size="14.00">“Want accreditation</text>
+<text text-anchor="middle" x="422.6" y="-957.86" font-family="Helvetica,Arial,sans-serif" font-size="14.00">info?”</text>
+</g>
+<!-- AskLocation&#45;&gt;AskAccred -->
+<g id="edge15" class="edge">
+<title>AskLocation-&gt;AskAccred</title>
+<path fill="none" stroke="black" d="M386.66,-1244.76C400.59,-1230.57 415.26,-1212.2 422.6,-1192.26 443.61,-1135.21 437.56,-1063.54 430.59,-1019.75"/>
+<polygon fill="black" stroke="black" points="434.05,-1019.2 428.92,-1009.93 427.14,-1020.38 434.05,-1019.2"/>
+<text text-anchor="middle" x="444.92" y="-1125.66" font-family="Times,serif" font-size="14.00">No</text>
+</g>
+<!-- AskArea -->
+<g id="node14" class="node">
+<title>AskArea</title>
+<polygon fill="none" stroke="black" points="407.11,-1103.46 302.09,-1103.46 302.09,-1045.06 407.11,-1045.06 407.11,-1103.46"/>
+<text text-anchor="middle" x="354.6" y="-1086.86" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Ask:</text>
+<text text-anchor="middle" x="354.6" y="-1070.06" font-family="Helvetica,Arial,sans-serif" font-size="14.00">“More on area/</text>
+<text text-anchor="middle" x="354.6" y="-1053.26" font-family="Helvetica,Arial,sans-serif" font-size="14.00">transport?”</text>
+</g>
+<!-- ShowLocation&#45;&gt;AskArea -->
+<g id="edge16" class="edge">
+<title>ShowLocation-&gt;AskArea</title>
+<path fill="none" stroke="black" d="M340.56,-1156.19C342.55,-1144.77 345.24,-1129.24 347.74,-1114.85"/>
+<polygon fill="black" stroke="black" points="351.16,-1115.58 349.42,-1105.13 344.26,-1114.39 351.16,-1115.58"/>
+</g>
+<!-- AskArea&#45;&gt;AskAccred -->
+<g id="edge17" class="edge">
+<title>AskArea-&gt;AskAccred</title>
+<path fill="none" stroke="black" d="M375.38,-1044.73C381.58,-1036.21 388.48,-1026.73 395.04,-1017.72"/>
+<polygon fill="black" stroke="black" points="397.78,-1019.91 400.83,-1009.76 392.12,-1015.79 397.78,-1019.91"/>
+</g>
+<!-- ShowAccred -->
+<g id="node16" class="node">
+<title>ShowAccred</title>
+<polygon fill="none" stroke="black" points="444.25,-896.86 278.96,-896.86 278.96,-860.86 444.25,-860.86 444.25,-896.86"/>
+<text text-anchor="middle" x="361.6" y="-874.66" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Recognized by INC, Delhi</text>
+</g>
+<!-- AskAccred&#45;&gt;ShowAccred -->
+<g id="edge18" class="edge">
+<title>AskAccred-&gt;ShowAccred</title>
+<path fill="none" stroke="black" d="M404.8,-949.25C396.44,-935.84 386.55,-919.94 378.34,-906.75"/>
+<polygon fill="black" stroke="black" points="381.5,-905.2 373.24,-898.56 375.55,-908.9 381.5,-905.2"/>
+<text text-anchor="middle" x="402.99" y="-919.06" font-family="Times,serif" font-size="14.00">Yes</text>
+</g>
+<!-- AskTraining -->
+<g id="node17" class="node">
+<title>AskTraining</title>
+<polygon fill="none" stroke="black" points="441.76,-823.86 311.45,-823.86 311.45,-765.46 441.76,-765.46 441.76,-823.86"/>
+<text text-anchor="middle" x="376.6" y="-807.26" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Ask:</text>
+<text text-anchor="middle" x="376.6" y="-790.46" font-family="Helvetica,Arial,sans-serif" font-size="14.00">“Want clinical</text>
+<text text-anchor="middle" x="376.6" y="-773.66" font-family="Helvetica,Arial,sans-serif" font-size="14.00">training locations?”</text>
+</g>
+<!-- AskAccred&#45;&gt;AskTraining -->
+<g id="edge19" class="edge">
+<title>AskAccred-&gt;AskTraining</title>
+<path fill="none" stroke="black" d="M440.71,-949.49C453.77,-925.18 466.95,-889.65 453.6,-860.86 448.53,-849.91 440.6,-840.13 431.74,-831.69"/>
+<polygon fill="black" stroke="black" points="434.33,-829.31 424.52,-825.31 429.7,-834.55 434.33,-829.31"/>
+<text text-anchor="middle" x="467.73" y="-874.66" font-family="Times,serif" font-size="14.00">No</text>
+</g>
+<!-- ShowAccred&#45;&gt;AskTraining -->
+<g id="edge20" class="edge">
+<title>ShowAccred-&gt;AskTraining</title>
+<path fill="none" stroke="black" d="M364.78,-860.43C366.14,-853.01 367.78,-844.02 369.4,-835.14"/>
+<polygon fill="black" stroke="black" points="372.8,-836.02 371.15,-825.56 365.91,-834.76 372.8,-836.02"/>
+</g>
+<!-- AskTraining&#45;&gt;Exit -->
+<g id="edge22" class="edge">
+<title>AskTraining-&gt;Exit</title>
+<path fill="none" stroke="black" d="M324.75,-764.97C292.69,-743.04 257.6,-709.49 257.6,-667.66 257.6,-667.66 257.6,-667.66 257.6,-347.86 257.6,-324.09 251.52,-298.24 245.13,-277.63"/>
+<polygon fill="black" stroke="black" points="248.49,-276.63 242.06,-268.21 241.83,-278.8 248.49,-276.63"/>
+<text text-anchor="middle" x="266.16" y="-494.66" font-family="Times,serif" font-size="14.00">No</text>
+</g>
+<!-- ShowTraining -->
+<g id="node18" class="node">
+<title>ShowTraining</title>
+<polygon fill="none" stroke="black" points="487.14,-712.66 286.07,-712.66 286.07,-620.66 487.14,-620.66 487.14,-712.66"/>
+<text text-anchor="middle" x="386.6" y="-696.06" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Training at:</text>
+<text text-anchor="middle" x="386.6" y="-679.26" font-family="Helvetica,Arial,sans-serif" font-size="14.00">• District Hospital, Backundpur</text>
+<text text-anchor="middle" x="386.6" y="-662.46" font-family="Helvetica,Arial,sans-serif" font-size="14.00">• Community Health Centers</text>
+<text text-anchor="middle" x="386.6" y="-645.66" font-family="Helvetica,Arial,sans-serif" font-size="14.00">• Regional Hospital, Chartha</text>
+<text text-anchor="middle" x="386.6" y="-628.86" font-family="Helvetica,Arial,sans-serif" font-size="14.00">• Ranchi Neurosurgery Hospital</text>
+</g>
+<!-- AskTraining&#45;&gt;ShowTraining -->
+<g id="edge21" class="edge">
+<title>AskTraining-&gt;ShowTraining</title>
+<path fill="none" stroke="black" d="M378.87,-765.07C379.84,-752.93 381,-738.32 382.12,-724.15"/>
+<polygon fill="black" stroke="black" points="385.59,-724.7 382.89,-714.45 378.61,-724.15 385.59,-724.7"/>
+<text text-anchor="middle" x="392.49" y="-734.86" font-family="Times,serif" font-size="14.00">Yes</text>
+</g>
+<!-- AskScholarship -->
+<g id="node19" class="node">
+<title>AskScholarship</title>
+<polygon fill="none" stroke="black" points="448.65,-583.66 324.56,-583.66 324.56,-525.26 448.65,-525.26 448.65,-583.66"/>
+<text text-anchor="middle" x="386.6" y="-567.06" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Ask:</text>
+<text text-anchor="middle" x="386.6" y="-550.26" font-family="Helvetica,Arial,sans-serif" font-size="14.00">“Want scholarship</text>
+<text text-anchor="middle" x="386.6" y="-533.46" font-family="Helvetica,Arial,sans-serif" font-size="14.00">options?”</text>
+</g>
+<!-- ShowTraining&#45;&gt;AskScholarship -->
+<g id="edge23" class="edge">
+<title>ShowTraining-&gt;AskScholarship</title>
+<path fill="none" stroke="black" d="M386.6,-620.2C386.6,-612 386.6,-603.5 386.6,-595.46"/>
+<polygon fill="black" stroke="black" points="390.1,-595.62 386.6,-585.62 383.1,-595.62 390.1,-595.62"/>
+</g>
+<!-- AskScholarship&#45;&gt;Exit -->
+<g id="edge25" class="edge">
+<title>AskScholarship-&gt;Exit</title>
+<path fill="none" stroke="black" d="M354.9,-525.06C340.6,-510.63 324.69,-492.03 314.6,-472.46 275.41,-396.43 310.68,-360.96 271.6,-284.86 269.81,-281.36 267.68,-277.91 265.37,-274.57"/>
+<polygon fill="black" stroke="black" points="268.2,-272.52 259.35,-266.7 262.64,-276.77 268.2,-272.52"/>
+<text text-anchor="middle" x="303.97" y="-400.26" font-family="Times,serif" font-size="14.00">No</text>
+</g>
+<!-- ShowScholarship -->
+<g id="node20" class="node">
+<title>ShowScholarship</title>
+<polygon fill="none" stroke="black" points="511.35,-472.46 323.86,-472.46 323.86,-430.86 511.35,-430.86 511.35,-472.46"/>
+<text text-anchor="middle" x="417.6" y="-455.86" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Govt Scholarship: ₹18–23 k</text>
+<text text-anchor="middle" x="417.6" y="-439.06" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Labour Ministry: ₹40–48 k</text>
+</g>
+<!-- AskScholarship&#45;&gt;ShowScholarship -->
+<g id="edge24" class="edge">
+<title>AskScholarship-&gt;ShowScholarship</title>
+<path fill="none" stroke="black" d="M395.4,-524.85C399.36,-511.97 404.05,-496.75 408.09,-483.61"/>
+<polygon fill="black" stroke="black" points="411.4,-484.74 410.99,-474.16 404.71,-482.69 411.4,-484.74"/>
+<text text-anchor="middle" x="416.68" y="-494.66" font-family="Times,serif" font-size="14.00">Yes</text>
+</g>
+<!-- AskSeats -->
+<g id="node21" class="node">
+<title>AskSeats</title>
+<polygon fill="none" stroke="black" points="441.56,-378.06 339.64,-378.06 339.64,-319.66 441.56,-319.66 441.56,-378.06"/>
+<text text-anchor="middle" x="390.6" y="-361.46" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Ask:</text>
+<text text-anchor="middle" x="390.6" y="-344.66" font-family="Helvetica,Arial,sans-serif" font-size="14.00">“Want seats &amp;</text>
+<text text-anchor="middle" x="390.6" y="-327.86" font-family="Helvetica,Arial,sans-serif" font-size="14.00">eligibility?”</text>
+</g>
+<!-- ShowScholarship&#45;&gt;AskSeats -->
+<g id="edge26" class="edge">
+<title>ShowScholarship-&gt;AskSeats</title>
+<path fill="none" stroke="black" d="M412.27,-430.75C409.12,-418.98 405.01,-403.65 401.22,-389.51"/>
+<polygon fill="black" stroke="black" points="404.64,-388.73 398.67,-379.98 397.88,-390.54 404.64,-388.73"/>
+</g>
+<!-- AskSeats&#45;&gt;Exit -->
+<g id="edge28" class="edge">
+<title>AskSeats-&gt;Exit</title>
+<path fill="none" stroke="black" d="M355.86,-319.24C341.8,-308.09 325.23,-295.46 309.6,-284.86 301.47,-279.35 292.67,-273.79 283.99,-268.54"/>
+<polygon fill="black" stroke="black" points="285.96,-265.64 275.58,-263.52 282.38,-271.65 285.96,-265.64"/>
+<text text-anchor="middle" x="341.08" y="-289.06" font-family="Times,serif" font-size="14.00">No</text>
+</g>
+<!-- ShowSeats -->
+<g id="node22" class="node">
+<title>ShowSeats</title>
+<polygon fill="none" stroke="black" points="439.43,-255.45 341.78,-255.45 341.78,-219.45 439.43,-219.45 439.43,-255.45"/>
+<text text-anchor="middle" x="390.6" y="-233.25" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Total seats: 60</text>
+</g>
+<!-- AskSeats&#45;&gt;ShowSeats -->
+<g id="edge27" class="edge">
+<title>AskSeats-&gt;ShowSeats</title>
+<path fill="none" stroke="black" d="M390.6,-319.4C390.6,-303.36 390.6,-283.36 390.6,-267.26"/>
+<polygon fill="black" stroke="black" points="394.1,-267.35 390.6,-257.35 387.1,-267.35 394.1,-267.35"/>
+<text text-anchor="middle" x="401.49" y="-289.06" font-family="Times,serif" font-size="14.00">Yes</text>
+</g>
+<!-- ShowEligibility -->
+<g id="node23" class="node">
+<title>ShowEligibility</title>
+<polygon fill="none" stroke="black" points="457.32,-171.03 323.89,-171.03 323.89,-95.83 457.32,-95.83 457.32,-171.03"/>
+<text text-anchor="middle" x="390.6" y="-154.43" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Eligibility:</text>
+<text text-anchor="middle" x="390.6" y="-137.63" font-family="Helvetica,Arial,sans-serif" font-size="14.00">• 12th Biology</text>
+<text text-anchor="middle" x="390.6" y="-120.83" font-family="Helvetica,Arial,sans-serif" font-size="14.00">• PNT Exam passed</text>
+<text text-anchor="middle" x="390.6" y="-104.03" font-family="Helvetica,Arial,sans-serif" font-size="14.00">• Age 17–35</text>
+</g>
+<!-- ShowSeats&#45;&gt;ShowEligibility -->
+<g id="edge29" class="edge">
+<title>ShowSeats-&gt;ShowEligibility</title>
+<path fill="none" stroke="black" d="M390.6,-219.14C390.6,-209.03 390.6,-195.72 390.6,-182.65"/>
+<polygon fill="black" stroke="black" points="394.1,-182.83 390.6,-172.83 387.1,-182.83 394.1,-182.83"/>
+</g>
+<!-- ShowEligibility&#45;&gt;EndApply -->
+<g id="edge30" class="edge">
+<title>ShowEligibility-&gt;EndApply</title>
+<path fill="none" stroke="black" d="M390.6,-95.6C390.6,-87.46 390.6,-78.78 390.6,-70.52"/>
+<polygon fill="black" stroke="black" points="394.1,-70.7 390.6,-60.7 387.1,-70.7 394.1,-70.7"/>
+</g>
+</g>
+</svg>
